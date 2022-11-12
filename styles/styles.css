@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*overflow-y: hidden;*/
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.guardian{
+    width: 100%;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cerradura{
+    padding-left: 4px;
+}
+
+.send-button{
+    width: 56px;
+    height: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    
+  
+}
+
+.send-button:hover{
+    background-color: rgb(226, 197, 197);
+}
+
+
